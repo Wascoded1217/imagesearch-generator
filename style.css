@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    scroll-behavior: smooth;
+}
+
+.inputSearch input{
+    width:50%;
+    outline: none;
+    /* background-color: white; */
+    border-radius: 5px;
+    border:none;
+    padding:15px;
+    border-bottom-right-radius: 0;
+    border-right: none;
+    border-top-right-radius: 0;
+}
+
+.inputSearch .fa-search{
+    padding:16px 25px;
+    cursor: pointer;
+    border: none;
+    border-top-left-radius:0;
+    border-bottom-left-radius:0;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    border-left: none;
+    /* padding-top: 10px; */
+    /* margin-top: 30px; */
+    font-size:18px;
+    /* margin-top: 12px; */
+    /* border-radius:5px; */
+    background-color: white;
+    color: black;
+}
+
+.find-img{
+    position: relative;
+    top:30%;
+}
+
+.input-container{
+    /* background-color: rgb(3, 3, 35); */
+    /* padding: 40px; */
+    width: 100%;
+    background-image: url(ocean.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height:350px;
+}
+
+.input-container h3{
+    text-align: center;
+    color: white;
+}
+
+.inputSearch{
+     justify-content: center;
+     align-items:center;
+     display: flex;
+     /* margin-top: 20px; */
+}
+
+
+#results{
+    display: flex;
+    justify-content: center;
+    width:85%;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.my-container{
+    width:23%;
+    margin-bottom:10px;
+}
+
+.my-container img{
+    width: 100%;
+    height:260px;
+    /* object-fit: cover; */
+    border-radius:7px;
+
+}
+
+@media screen and (max-width:768px){
+    
+.inputSearch input{
+    width:100%;
+    outline: none;
+    border-radius: 5px;
+    border:1px solid gainsboro;
+    padding:13px;
+    border-bottom-right-radius: 0;
+    border-right: none;
+    border-top-right-radius: 0;
+}
+
+.inputSearch .fa-search{
+    padding:14px 25px;
+    border-top-left-radius:0;
+    border-bottom-left-radius:0;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    border-left: none;
+    font-size: 17px;
+    /* border-radius:5px; */
+    background-color: white;
+    color: black;
+}
+
+.input-container{
+    /* background-color: rgb(3, 3, 35); */
+    padding: 40px;
+    width: 100%;
+    background-image: url(ocean.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height:270px;
+}
+
+.input-container h3{
+    text-align: center;
+    margin: 12px 0 22px 0;
+    color: white;
+}
+
+.inputSearch{
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     /* margin-top: 20px; */
+}
+
+
+#results{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.my-container{
+    width:90%;
+    margin-bottom:10px;
+}
+    
+.my-container img{
+    width: 100%;
+    height:200px;
+    /* object-fit: cover; */
+    border-radius:7px;
+
+}
+}
